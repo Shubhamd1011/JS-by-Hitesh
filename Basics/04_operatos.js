@@ -22,3 +22,27 @@ console.log(1+2+"3")
 1 + 2 = 3 (number addition)
 3 + "2" → "32" (string concat)
  */
+
+
+console.log(+true);
+// op ----> 1 of - the -1 
+
+console.log(+false);
+// op ------> 0 if - then -0
+
+let counter = 10;
+let increament = counter++;
+let pre = ++counter;
+
+console.log(`x = ${counter} and y = ${increament}`);
+// op -----> x = 12 and y = 10 bcz here we give both post and pre increments
+
+console.log(`x = ${counter} and y = ${pre}`);
+// op -----> x = 12 and y = 12 ---->bcz it first changes the value
+// bcz here we give both post and pre increments
+
+
+
+
+
+
