@@ -39,7 +39,6 @@ Method                           Description                                   E
 // ++++++++++++++++++++++++++++++++++++ Methods of strings +++++++++++++++++++++++++++++++++++++++++++++++++
 
 let name = "hello shubham    "
-
 console.log(name.__proto__)
 // op ----> {} for getting all the prototypes
 console.log(name.length);
