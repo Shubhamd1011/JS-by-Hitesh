@@ -26,6 +26,14 @@ console.log(user.welcomeMessage());
 user.name = "Sam"
 user.welcomeMessage();
 
+// We cant use the this keyword into a functions.
+function notThis (){
+  let userName = "Shubham"
+  console.log(this.userName)
+}
+notThis()
+// OP : Will comes undefined.
+
 // ********************************************************* Arrow Functions ************************************************************
 
 // The basic syntax of arrow function is () => {}, And we also store it into a varible like
