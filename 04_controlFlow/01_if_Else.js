@@ -56,5 +56,4 @@ console.log(`${user} you have to access to buy the course`);
 
 if (isLoggedInGmail || isLoggedInGoogle){
   console.log(`${user} you have to access to buy the course`);
-
 }
