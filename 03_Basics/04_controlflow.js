@@ -34,3 +34,27 @@ const temp = 49;
 
 // console.log(`THE POWER OF USER IS : ${power}`); //But this not runs it gets an error of power is not defined bcz const is a block scope veriable.
 
+// When we have only 1 line of execution on that time we use implesite scope short hand notation.
+
+const balance = 1000;
+if(balance > 500)console.log(`${balance} is the implesite scope`);
+
+// && it means both condition true
+// || (pipe sign) it denotes or here 1 condition we want to true.
+
+const isLoggedIn = true;
+const debitCard = false;
+const user = "Shubham";
+const isLoggedInGoogle = true;
+const isLoggedInGmail = false;
+
+if (isLoggedIn && debitCard){
+console.log(`${user} you have to access to buy the course`);
+}else{
+  console.log(`${user} you dont have the access of buy the course`);
+}
+
+if (isLoggedInGmail || isLoggedInGoogle){
+  console.log(`${user} you have to access to buy the course`);
+
+}
