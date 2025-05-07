@@ -7,4 +7,8 @@ IIFE stands for Immediatly Invoked Function Expression (IIFE).
 
 (function iife(){
   console.log(`DB connected`); 
-}) () // This is syntax iife
+}) (); // This is syntax iife and here the ; is most imp bcz when we dont give it comes
+
+((user)=>{
+  console.log(`DB connected by arrow function ${user}`)
+}) ("Shubham....") // This the syntax 
