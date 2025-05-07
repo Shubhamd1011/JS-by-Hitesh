@@ -37,3 +37,11 @@ if (Object.keys(myObj).length === 0){
 }else{
   console.log(`This is not an empty object this consists ${Object.values(myObj)} is a value and ${Object.keys(myObj)} it is a key`); 
 }
+
+
+// Ternary operators 
+
+// condition ? true : false;
+const marks = 90;
+marks >= 95 ? console.log(`${marks} is A grade`) : console.log(`${marks} is average`);
+
