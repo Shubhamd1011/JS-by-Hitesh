@@ -38,3 +38,8 @@ const myCoding = [
 myCoding.forEach((item)=>{
   console.log(item.langName, item.fileName);
 }) // Like that we acces the values of that object.
+
+
+
+ 
+
