@@ -29,8 +29,8 @@ When something is no longer "reachable" (no variable is pointing to it), the mem
 let name = "Shubham"
 let fullTwo = name
 fullTwo = "ShubhamD"
-console.log(fullTwo);
-console.log(name);
+console.log(fullTwo); // op ---> Shubham d
+console.log(name); // op Shubham  bcz it does not do any changes in original one it provide is the copy of original
 
 let objOne = {
   fName : "Shubham",
@@ -39,7 +39,7 @@ let objOne = {
 }
 let objTwo = objOne
 objTwo.email = "shubhamdevkamble707@gmail.com"
-console.log(objOne)
+console.log(objOne) // it changes the original object to bcz it undergoes heap memory and it gives us the referance of original one.
 
 
 
