@@ -107,6 +107,10 @@ promiseSix.then((user)=>{
   console.log(userName);
 }).catch((err)=>{
   console.log(err);
+}).finally(()=>{
+  console.log("The promise is either resolve or reject");
 })
+
+
 
 
