@@ -11,4 +11,6 @@ Output: "Olleh"
 
 let str = "hello";
 let reverse = str.split("").reverse().join("");
-console.log(reverse);
+let capitalizes = reverse.charAt(0).toUpperCase() + reverse.slice(1)
+console.log(capitalizes);
+
